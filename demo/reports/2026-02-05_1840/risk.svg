@@ -68,7 +68,7 @@
 <line class="axis" x1="420.0" x2="420.0" y1="73" y2="76"/>
 <text x="420.0" y="88.0" text-anchor="end" class="muted" style="font-size:10px">+4</text>
 <text x="560.0" y="70.0" text-anchor="end" class="ink b" style="font-size:14px">7.49 kg</text>
-<path class="good" d="M150.0,62.0 h118.2 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-118.2 z"><title>上肢肌肉量 評分 −0.38（確認：= 左右上肢肌肉評分的平均（四次量測都成立））</title></path>
+<path class="good" d="M150.0,62.0 h118.2 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-118.2 z"><title>上肢肌肉量 評分 −0.38（確認：= 左右上肢肌肉評分的平均（作者的每一次量測都成立））</title></path>
 <text x="560.0" y="88.0" text-anchor="end" style="font-size:11px">評分 −0.38 · 尚可</text>
 <text x="0.0" y="118.0" text-anchor="start" class="ink">下肢肌肉量</text>
 <rect class="track" x="150" y="108" width="270" height="8" rx="4"/>
@@ -91,7 +91,7 @@
 <line class="axis" x1="420.0" x2="420.0" y1="119" y2="122"/>
 <text x="420.0" y="134.0" text-anchor="end" class="muted" style="font-size:10px">+4</text>
 <text x="560.0" y="116.0" text-anchor="end" class="ink b" style="font-size:14px">21.25 kg</text>
-<path class="good" d="M150.0,108.0 h137.4 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-137.4 z"><title>下肢肌肉量 評分 +0.19（確認：= 左右下肢肌肉評分的平均（四次量測都成立））</title></path>
+<path class="good" d="M150.0,108.0 h137.4 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-137.4 z"><title>下肢肌肉量 評分 +0.19（確認：= 左右下肢肌肉評分的平均（作者的每一次量測都成立））</title></path>
 <text x="560.0" y="134.0" text-anchor="end" style="font-size:11px">評分 +0.19 · 良好</text>
 <text x="0.0" y="164.0" text-anchor="start" class="ink">軀幹肌肉量</text>
 <rect class="track" x="150" y="154" width="270" height="8" rx="4"/>
