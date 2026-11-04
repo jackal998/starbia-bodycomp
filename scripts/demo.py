@@ -110,7 +110,7 @@ def write_qr_png(raw, path):
         return
     code = zxingcpp.create_barcode(qr_text(raw), zxingcpp.BarcodeFormat.QRCode)
     img = zxingcpp.write_barcode_to_image(code, scale=8)
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     Image.fromarray(img).save(path, optimize=True)
 
 def run(data_dir, *args):
