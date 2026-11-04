@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 568 218" width="568" height="218" role="img" aria-label="各肢段 肌肉／體脂肪／骨礦物 kg 與評分">
+<title>各肢段 肌肉／體脂肪／骨礦物 kg 與評分</title>
+<style>
+  .bg { fill: #fcfcfb; } text { font-family: -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; fill: #52514e; font-size: 12px; }
+  .ink { fill: #0b0b0b; } .muted { fill: #898781; } .b { font-weight: 600; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; } .track { fill: #f0efec; }
+  .s1 { fill: #2a78d6; } .s2 { fill: #eb6834; } .s3 { fill: #1baf7a; } .s4 { fill: #eda100; }
+  .good { fill: #0ca30c; } .warning { fill: #fab219; } .serious { fill: #ec835a; } .critical { fill: #d03b3b; }
+  .wash-good { fill: #0ca30c; fill-opacity: .13; } .wash-warning { fill: #fab219; fill-opacity: .16; }
+  .wash-serious { fill: #ec835a; fill-opacity: .16; } .wash-critical { fill: #d03b3b; fill-opacity: .14; }
+  .wash-s1 { fill: #2a78d6; fill-opacity: .16; } .ref { stroke: #2a78d6; stroke-width: 1; fill: none; }
+  .line { stroke: #2a78d6; stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+  .dot { fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2; } .dot-raw { fill: #2a78d6; fill-opacity: .45; stroke: #fcfcfb; stroke-width: 1.5; }
+  .thin { stroke: #2a78d6; stroke-width: 1.25; stroke-opacity: .55; fill: none; stroke-linejoin: round; }
+  .mean { stroke: #2a78d6; stroke-width: 1.5; stroke-dasharray: 5 4; fill: none; }
+  .lim { stroke: #0ca30c; stroke-width: 1.25; stroke-dasharray: 4 3; fill: none; } .lim-t { fill: #087a08; } .pin { fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 2; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19; } text { fill: #c3c2b7; } .ink { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; } .track { fill: #262624; }
+    .s1 { fill: #3987e5; } .s2 { fill: #d95926; } .s3 { fill: #199e70; } .s4 { fill: #c98500; }
+    .wash-s1 { fill: #3987e5; } .ref, .line { stroke: #3987e5; }
+    .dot { fill: #3987e5; stroke: #1a1a19; } .dot-raw { fill: #3987e5; stroke: #1a1a19; }
+    .thin, .mean { stroke: #3987e5; } .lim { stroke: #2fbf2f; } .lim-t { fill: #4fcf4f; } .pin { fill: #f0efec; stroke: #1a1a19; }
+  }
+</style>
+<rect class="bg" width="568" height="218" rx="8"/>
+<text x="64.0" y="18.0" text-anchor="start" class="ink b">肌肉量</text>
+<line class="axis" x1="159.0" x2="159.0" y1="26" y2="194"/>
+<text x="64.0" y="47.0" text-anchor="start" class="ink" style="font-size:12px">3.82 kg</text>
+<rect class="track" x="130" y="40.0" width="58" height="6" rx="3"/>
+<rect class="good" x="154.4" y="38.0" width="4.6" height="10" rx="3"><title>右上肢 肌肉量 3.82 kg，評分 −0.48（尚可）</title></rect>
+<text x="224.0" y="47.0" text-anchor="end" style="font-size:11px">−0.48</text>
+<text x="64.0" y="81.0" text-anchor="start" class="ink" style="font-size:12px">3.77 kg</text>
+<rect class="track" x="130" y="74.0" width="58" height="6" rx="3"/>
+<rect class="good" x="153.8" y="72.0" width="5.2" height="10" rx="3"><title>左上肢 肌肉量 3.77 kg，評分 −0.54（尚可）</title></rect>
+<text x="224.0" y="81.0" text-anchor="end" style="font-size:11px">−0.54</text>
+<text x="64.0" y="115.0" text-anchor="start" class="ink" style="font-size:12px">24.91 kg</text>
+<rect class="track" x="130" y="108.0" width="58" height="6" rx="3"/>
+<rect class="good" x="157.4" y="106.0" width="2.0" height="10" rx="3"><title>軀幹 肌肉量 24.91 kg，評分 −0.17（尚可）</title></rect>
+<text x="224.0" y="115.0" text-anchor="end" style="font-size:11px">−0.17</text>
+<text x="64.0" y="149.0" text-anchor="start" class="ink" style="font-size:12px">10.80 kg</text>
+<rect class="track" x="130" y="142.0" width="58" height="6" rx="3"/>
+<rect class="good" x="159.0" y="140.0" width="2.4" height="10" rx="3"><title>右下肢 肌肉量 10.80 kg，評分 +0.25（良好）</title></rect>
+<text x="224.0" y="149.0" text-anchor="end" style="font-size:11px">+0.25</text>
+<text x="64.0" y="183.0" text-anchor="start" class="ink" style="font-size:12px">10.84 kg</text>
+<rect class="track" x="130" y="176.0" width="58" height="6" rx="3"/>
+<rect class="good" x="159.0" y="174.0" width="2.0" height="10" rx="3"><title>左下肢 肌肉量 10.84 kg，評分 +0.20（良好）</title></rect>
+<text x="224.0" y="183.0" text-anchor="end" style="font-size:11px">+0.20</text>
+<text x="232.0" y="18.0" text-anchor="start" class="ink b">體脂肪量</text>
+<line class="axis" x1="327.0" x2="327.0" y1="26" y2="194"/>
+<text x="232.0" y="47.0" text-anchor="start" class="ink" style="font-size:12px">1.36 kg</text>
+<rect class="track" x="298" y="40.0" width="58" height="6" rx="3"/>
+<rect class="good" x="327.0" y="38.0" width="6.2" height="10" rx="3"><title>右上肢 體脂肪量 1.36 kg，評分 +0.64（良好）</title></rect>
+<text x="392.0" y="47.0" text-anchor="end" style="font-size:11px">+0.64</text>
+<text x="232.0" y="81.0" text-anchor="start" class="ink" style="font-size:12px">1.36 kg</text>
+<rect class="track" x="298" y="74.0" width="58" height="6" rx="3"/>
+<rect class="good" x="327.0" y="72.0" width="5.8" height="10" rx="3"><title>左上肢 體脂肪量 1.36 kg，評分 +0.60（良好）</title></rect>
+<text x="392.0" y="81.0" text-anchor="end" style="font-size:11px">+0.60</text>
+<text x="232.0" y="115.0" text-anchor="start" class="ink" style="font-size:12px">9.71 kg</text>
+<rect class="track" x="298" y="108.0" width="58" height="6" rx="3"/>
+<rect class="good" x="327.0" y="106.0" width="5.0" height="10" rx="3"><title>軀幹 體脂肪量 9.71 kg，評分 +0.52（良好）</title></rect>
+<text x="392.0" y="115.0" text-anchor="end" style="font-size:11px">+0.52</text>
+<text x="232.0" y="149.0" text-anchor="start" class="ink" style="font-size:12px">3.50 kg</text>
+<rect class="track" x="298" y="142.0" width="58" height="6" rx="3"/>
+<rect class="good" x="327.0" y="140.0" width="5.6" height="10" rx="3"><title>右下肢 體脂肪量 3.50 kg，評分 +0.58（良好）</title></rect>
+<text x="392.0" y="149.0" text-anchor="end" style="font-size:11px">+0.58</text>
+<text x="232.0" y="183.0" text-anchor="start" class="ink" style="font-size:12px">3.50 kg</text>
+<rect class="track" x="298" y="176.0" width="58" height="6" rx="3"/>
+<rect class="good" x="327.0" y="174.0" width="4.8" height="10" rx="3"><title>左下肢 體脂肪量 3.50 kg，評分 +0.50（良好）</title></rect>
+<text x="392.0" y="183.0" text-anchor="end" style="font-size:11px">+0.50</text>
+<text x="400.0" y="18.0" text-anchor="start" class="ink b">骨礦物量</text>
+<line class="axis" x1="495.0" x2="495.0" y1="26" y2="194"/>
+<text x="400.0" y="47.0" text-anchor="start" class="ink" style="font-size:12px">0.21 kg</text>
+<rect class="track" x="466" y="40.0" width="58" height="6" rx="3"/>
+<rect class="good" x="495.0" y="38.0" width="2.0" height="10" rx="3"><title>右上肢 骨礦物量 0.21 kg，評分 +0.04（良好）</title></rect>
+<text x="560.0" y="47.0" text-anchor="end" style="font-size:11px">+0.04</text>
+<text x="400.0" y="81.0" text-anchor="start" class="ink" style="font-size:12px">0.21 kg</text>
+<rect class="track" x="466" y="74.0" width="58" height="6" rx="3"/>
+<rect class="good" x="495.0" y="72.0" width="2.0" height="10" rx="3"><title>左上肢 骨礦物量 0.21 kg，評分 +0.07（良好）</title></rect>
+<text x="560.0" y="81.0" text-anchor="end" style="font-size:11px">+0.07</text>
+<text x="400.0" y="115.0" text-anchor="start" class="ink" style="font-size:12px">1.49 kg</text>
+<rect class="track" x="466" y="108.0" width="58" height="6" rx="3"/>
+<rect class="good" x="495.0" y="106.0" width="2.0" height="10" rx="3"><title>軀幹 骨礦物量 1.49 kg，評分 +0.13（良好）</title></rect>
+<text x="560.0" y="115.0" text-anchor="end" style="font-size:11px">+0.13</text>
+<text x="400.0" y="149.0" text-anchor="start" class="ink" style="font-size:12px">0.53 kg</text>
+<rect class="track" x="466" y="142.0" width="58" height="6" rx="3"/>
+<rect class="good" x="495.0" y="140.0" width="2.0" height="10" rx="3"><title>右下肢 骨礦物量 0.53 kg，評分 +0.09（良好）</title></rect>
+<text x="560.0" y="149.0" text-anchor="end" style="font-size:11px">+0.09</text>
+<text x="400.0" y="183.0" text-anchor="start" class="ink" style="font-size:12px">0.53 kg</text>
+<rect class="track" x="466" y="176.0" width="58" height="6" rx="3"/>
+<rect class="good" x="495.0" y="174.0" width="2.0" height="10" rx="3"><title>左下肢 骨礦物量 0.53 kg，評分 +0.12（良好）</title></rect>
+<text x="560.0" y="183.0" text-anchor="end" style="font-size:11px">+0.12</text>
+<text x="0.0" y="47.0" text-anchor="start" class="ink">右上肢</text>
+<text x="0.0" y="81.0" text-anchor="start" class="ink">左上肢</text>
+<text x="0.0" y="115.0" text-anchor="start" class="ink">軀幹</text>
+<text x="0.0" y="149.0" text-anchor="start" class="ink">右下肢</text>
+<text x="0.0" y="183.0" text-anchor="start" class="ink">左下肢</text>
+<text x="0.0" y="210.0" text-anchor="start" class="muted" style="font-size:11px">評分 −3 風險高 … +3 優；長條從 0 往分數方向畫</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 240" width="560" height="240" role="img" aria-label="全身骨密度 1.19 g/cm²，YA T-score +0.43，35 歲">
+<title>全身骨密度 1.19 g/cm²，YA T-score +0.43，35 歲</title>
+<style>
+  .bg { fill: #fcfcfb; } text { font-family: -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; fill: #52514e; font-size: 12px; }
+  .ink { fill: #0b0b0b; } .muted { fill: #898781; } .b { font-weight: 600; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; } .track { fill: #f0efec; }
+  .s1 { fill: #2a78d6; } .s2 { fill: #eb6834; } .s3 { fill: #1baf7a; } .s4 { fill: #eda100; }
+  .good { fill: #0ca30c; } .warning { fill: #fab219; } .serious { fill: #ec835a; } .critical { fill: #d03b3b; }
+  .wash-good { fill: #0ca30c; fill-opacity: .13; } .wash-warning { fill: #fab219; fill-opacity: .16; }
+  .wash-serious { fill: #ec835a; fill-opacity: .16; } .wash-critical { fill: #d03b3b; fill-opacity: .14; }
+  .wash-s1 { fill: #2a78d6; fill-opacity: .16; } .ref { stroke: #2a78d6; stroke-width: 1; fill: none; }
+  .line { stroke: #2a78d6; stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+  .dot { fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2; } .dot-raw { fill: #2a78d6; fill-opacity: .45; stroke: #fcfcfb; stroke-width: 1.5; }
+  .thin { stroke: #2a78d6; stroke-width: 1.25; stroke-opacity: .55; fill: none; stroke-linejoin: round; }
+  .mean { stroke: #2a78d6; stroke-width: 1.5; stroke-dasharray: 5 4; fill: none; }
+  .lim { stroke: #0ca30c; stroke-width: 1.25; stroke-dasharray: 4 3; fill: none; } .lim-t { fill: #087a08; } .pin { fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 2; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19; } text { fill: #c3c2b7; } .ink { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; } .track { fill: #262624; }
+    .s1 { fill: #3987e5; } .s2 { fill: #d95926; } .s3 { fill: #199e70; } .s4 { fill: #c98500; }
+    .wash-s1 { fill: #3987e5; } .ref, .line { stroke: #3987e5; }
+    .dot { fill: #3987e5; stroke: #1a1a19; } .dot-raw { fill: #3987e5; stroke: #1a1a19; }
+    .thin, .mean { stroke: #3987e5; } .lim { stroke: #2fbf2f; } .lim-t { fill: #4fcf4f; } .pin { fill: #f0efec; stroke: #1a1a19; }
+  }
+</style>
+<rect class="bg" width="560" height="240" rx="8"/>
+<rect class="wash-good" x="34" y="12.0" width="514" height="113.1"/>
+<rect class="wash-warning" x="34" y="125.1" width="514" height="28.3"/>
+<rect class="wash-serious" x="34" y="153.4" width="514" height="28.3"/>
+<rect class="wash-critical" x="34" y="181.7" width="514" height="28.3"/>
+<polygon class="wash-s1" points="34.0,40.3 258.9,40.3 548.0,85.5 548.0,142.1 258.9,96.9 34.0,96.9"/>
+<polyline class="ref" points="34.0,68.6 258.9,68.6 548.0,113.8"/>
+<line class="grid" x1="34" x2="548" y1="12.0" y2="12.0" stroke-opacity=".7"/>
+<text x="28.0" y="16.0" text-anchor="end" class="muted" style="font-size:11px">+2</text>
+<line class="grid" x1="34" x2="548" y1="40.3" y2="40.3" stroke-opacity=".7"/>
+<text x="28.0" y="44.3" text-anchor="end" class="muted" style="font-size:11px">+1</text>
+<line class="grid" x1="34" x2="548" y1="68.6" y2="68.6" stroke-opacity=".7"/>
+<text x="28.0" y="72.6" text-anchor="end" class="muted" style="font-size:11px">0</text>
+<line class="grid" x1="34" x2="548" y1="96.9" y2="96.9" stroke-opacity=".7"/>
+<text x="28.0" y="100.9" text-anchor="end" class="muted" style="font-size:11px">−1</text>
+<line class="grid" x1="34" x2="548" y1="125.1" y2="125.1" stroke-opacity=".7"/>
+<text x="28.0" y="129.1" text-anchor="end" class="muted" style="font-size:11px">−2</text>
+<line class="grid" x1="34" x2="548" y1="153.4" y2="153.4" stroke-opacity=".7"/>
+<text x="28.0" y="157.4" text-anchor="end" class="muted" style="font-size:11px">−3</text>
+<line class="grid" x1="34" x2="548" y1="181.7" y2="181.7" stroke-opacity=".7"/>
+<text x="28.0" y="185.7" text-anchor="end" class="muted" style="font-size:11px">−4</text>
+<line class="grid" x1="34" x2="548" y1="210.0" y2="210.0" stroke-opacity=".7"/>
+<text x="28.0" y="214.0" text-anchor="end" class="muted" style="font-size:11px">−5</text>
+<text x="34.0" y="228.0" text-anchor="middle" class="muted" style="font-size:11px">20</text>
+<text x="98.2" y="228.0" text-anchor="middle" class="muted" style="font-size:11px">30</text>
+<text x="162.5" y="228.0" text-anchor="middle" class="muted" style="font-size:11px">40</text>
+<text x="226.8" y="228.0" text-anchor="middle" class="muted" style="font-size:11px">50</text>
+<text x="291.0" y="228.0" text-anchor="middle" class="muted" style="font-size:11px">60</text>
+<text x="355.2" y="228.0" text-anchor="middle" class="muted" style="font-size:11px">70</text>
+<text x="419.5" y="228.0" text-anchor="middle" class="muted" style="font-size:11px">80</text>
+<text x="483.8" y="228.0" text-anchor="middle" class="muted" style="font-size:11px">90</text>
+<text x="548.0" y="228.0" text-anchor="middle" class="muted" style="font-size:11px">100</text>
+<circle class="pin" cx="130.4" cy="56.4" r="5"><title>35 歲，T-score +0.43</title></circle>
+<text x="140.4" y="60.4" text-anchor="start" class="ink b">1.19 g/cm² · T +0.43</text>
+</svg>

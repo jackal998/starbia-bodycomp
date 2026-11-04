@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 296" width="560" height="296" role="img" aria-label="體組成評估：體脂率、內臟脂肪等級、體重標準百分比、BMI">
+<title>體組成評估：體脂率、內臟脂肪等級、體重標準百分比、BMI</title>
+<style>
+  .bg { fill: #fcfcfb; } text { font-family: -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; fill: #52514e; font-size: 12px; }
+  .ink { fill: #0b0b0b; } .muted { fill: #898781; } .b { font-weight: 600; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; } .track { fill: #f0efec; }
+  .s1 { fill: #2a78d6; } .s2 { fill: #eb6834; } .s3 { fill: #1baf7a; } .s4 { fill: #eda100; }
+  .good { fill: #0ca30c; } .warning { fill: #fab219; } .serious { fill: #ec835a; } .critical { fill: #d03b3b; }
+  .wash-good { fill: #0ca30c; fill-opacity: .13; } .wash-warning { fill: #fab219; fill-opacity: .16; }
+  .wash-serious { fill: #ec835a; fill-opacity: .16; } .wash-critical { fill: #d03b3b; fill-opacity: .14; }
+  .wash-s1 { fill: #2a78d6; fill-opacity: .16; } .ref { stroke: #2a78d6; stroke-width: 1; fill: none; }
+  .line { stroke: #2a78d6; stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+  .dot { fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2; } .dot-raw { fill: #2a78d6; fill-opacity: .45; stroke: #fcfcfb; stroke-width: 1.5; }
+  .thin { stroke: #2a78d6; stroke-width: 1.25; stroke-opacity: .55; fill: none; stroke-linejoin: round; }
+  .mean { stroke: #2a78d6; stroke-width: 1.5; stroke-dasharray: 5 4; fill: none; }
+  .lim { stroke: #0ca30c; stroke-width: 1.25; stroke-dasharray: 4 3; fill: none; } .lim-t { fill: #087a08; } .pin { fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 2; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19; } text { fill: #c3c2b7; } .ink { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; } .track { fill: #262624; }
+    .s1 { fill: #3987e5; } .s2 { fill: #d95926; } .s3 { fill: #199e70; } .s4 { fill: #c98500; }
+    .wash-s1 { fill: #3987e5; } .ref, .line { stroke: #3987e5; }
+    .dot { fill: #3987e5; stroke: #1a1a19; } .dot-raw { fill: #3987e5; stroke: #1a1a19; }
+    .thin, .mean { stroke: #3987e5; } .lim { stroke: #2fbf2f; } .lim-t { fill: #4fcf4f; } .pin { fill: #f0efec; stroke: #1a1a19; }
+  }
+</style>
+<rect class="bg" width="560" height="296" rx="8"/>
+<text x="0.0" y="42.0" text-anchor="start" class="ink">體脂率</text>
+<rect class="s1" x="128.0" y="14" width="32.6" height="5" rx="2"/>
+<text x="144.8" y="32.0" text-anchor="middle" style="font-size:11px">低脂肪</text>
+<rect class="s3" x="162.6" y="14" width="45.0" height="5" rx="2"/>
+<text x="185.0" y="32.0" text-anchor="middle" style="font-size:11px">運動型</text>
+<rect class="good" x="209.5" y="14" width="38.3" height="5" rx="2"/>
+<text x="228.7" y="32.0" text-anchor="middle" style="font-size:11px">正常</text>
+<rect class="warning" x="249.8" y="14" width="45.0" height="5" rx="2"/>
+<text x="272.3" y="32.0" text-anchor="middle" style="font-size:11px">過重</text>
+<rect class="critical" x="296.8" y="14" width="133.2" height="5" rx="2"/>
+<text x="362.9" y="32.0" text-anchor="middle" style="font-size:11px">肥胖</text>
+<path class="critical" d="M128.0,38.0 h167.5 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-167.5 z"><title>體脂率 25.56%</title></path>
+<line class="axis" x1="128" x2="430" y1="52" y2="52"/>
+<text x="128.0" y="66.0" text-anchor="start" class="muted" style="font-size:11px">0</text>
+<text x="161.6" y="66.0" text-anchor="middle" class="muted" style="font-size:11px">5</text>
+<text x="195.1" y="66.0" text-anchor="middle" class="muted" style="font-size:11px">10</text>
+<text x="228.7" y="66.0" text-anchor="middle" class="muted" style="font-size:11px">15</text>
+<text x="262.2" y="66.0" text-anchor="middle" class="muted" style="font-size:11px">20</text>
+<text x="295.8" y="66.0" text-anchor="middle" class="muted" style="font-size:11px">25</text>
+<text x="329.3" y="66.0" text-anchor="middle" class="muted" style="font-size:11px">30</text>
+<text x="362.9" y="66.0" text-anchor="middle" class="muted" style="font-size:11px">35</text>
+<text x="396.4" y="66.0" text-anchor="middle" class="muted" style="font-size:11px">40</text>
+<text x="430.0" y="66.0" text-anchor="end" class="muted" style="font-size:11px">45</text>
+<text x="560.0" y="38.0" text-anchor="end" class="ink b" style="font-size:15px">25.56%</text>
+<circle class="critical" cx="528.0" cy="54.0" r="4"/><text x="560.0" y="58.0" text-anchor="end">肥胖</text>
+<text x="0.0" y="114.0" text-anchor="start" class="ink">內臟脂肪等級</text>
+<text x="0.0" y="130.0" text-anchor="start" class="muted" style="font-size:11px">= 面積 94.96 ÷ 10</text>
+<rect class="s1" x="128.0" y="86" width="99.7" height="5" rx="2"/>
+<text x="178.3" y="104.0" text-anchor="middle" style="font-size:11px">風險低</text>
+<rect class="good" x="229.7" y="86" width="98.7" height="5" rx="2"/>
+<text x="279.0" y="104.0" text-anchor="middle" style="font-size:11px">中等</text>
+<rect class="critical" x="330.3" y="86" width="99.7" height="5" rx="2"/>
+<text x="379.7" y="104.0" text-anchor="middle" style="font-size:11px">肥胖</text>
+<path class="s1" d="M128.0,110.0 h91.6 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-91.6 z"><title>內臟脂肪等級 9</title></path>
+<line class="axis" x1="128" x2="430" y1="124" y2="124"/>
+<text x="128.0" y="138.0" text-anchor="start" class="muted" style="font-size:11px">0</text>
+<text x="228.7" y="138.0" text-anchor="middle" class="muted" style="font-size:11px">10</text>
+<text x="329.3" y="138.0" text-anchor="middle" class="muted" style="font-size:11px">15</text>
+<text x="430.0" y="138.0" text-anchor="end" class="muted" style="font-size:11px">30</text>
+<text x="560.0" y="110.0" text-anchor="end" class="ink b" style="font-size:15px">9</text>
+<circle class="s1" cx="515.5" cy="126.0" r="4"/><text x="560.0" y="130.0" text-anchor="end">風險低</text>
+<text x="0.0" y="186.0" text-anchor="start" class="ink">體重（標準%）</text>
+<rect class="s1" x="128.0" y="158" width="85.3" height="5" rx="2"/>
+<text x="171.1" y="176.0" text-anchor="middle" style="font-size:11px">風險低</text>
+<rect class="good" x="215.3" y="158" width="84.3" height="5" rx="2"/>
+<text x="257.4" y="176.0" text-anchor="middle" style="font-size:11px">中等</text>
+<rect class="critical" x="301.6" y="158" width="128.4" height="5" rx="2"/>
+<text x="365.3" y="176.0" text-anchor="middle" style="font-size:11px">肥胖</text>
+<path class="critical" d="M128.0,182.0 h179.4 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-179.4 z"><title>體重（標準%） 118.8%</title></path>
+<line class="axis" x1="128" x2="430" y1="196" y2="196"/>
+<text x="128.0" y="210.0" text-anchor="start" class="muted" style="font-size:11px">55</text>
+<text x="171.1" y="210.0" text-anchor="middle" class="muted" style="font-size:11px">70</text>
+<text x="214.3" y="210.0" text-anchor="middle" class="muted" style="font-size:11px">85</text>
+<text x="257.4" y="210.0" text-anchor="middle" class="muted" style="font-size:11px">100</text>
+<text x="300.6" y="210.0" text-anchor="middle" class="muted" style="font-size:11px">115</text>
+<text x="343.7" y="210.0" text-anchor="middle" class="muted" style="font-size:11px">130</text>
+<text x="386.9" y="210.0" text-anchor="middle" class="muted" style="font-size:11px">145</text>
+<text x="430.0" y="210.0" text-anchor="end" class="muted" style="font-size:11px">160</text>
+<text x="560.0" y="182.0" text-anchor="end" class="ink b" style="font-size:15px">118.8%</text>
+<circle class="critical" cx="528.0" cy="198.0" r="4"/><text x="560.0" y="202.0" text-anchor="end">肥胖</text>
+<text x="0.0" y="258.0" text-anchor="start" class="ink">BMI</text>
+<text x="0.0" y="274.0" text-anchor="start" class="muted" style="font-size:11px">分區照機器圖</text>
+<rect class="warning" x="128.0" y="230" width="49.3" height="5" rx="2"/>
+<text x="153.2" y="248.0" text-anchor="middle" style="font-size:11px">過輕</text>
+<rect class="good" x="179.3" y="230" width="48.3" height="5" rx="2"/>
+<text x="203.5" y="248.0" text-anchor="middle" style="font-size:11px">正常</text>
+<rect class="warning" x="229.7" y="230" width="48.3" height="5" rx="2"/>
+<text x="253.8" y="248.0" text-anchor="middle" style="font-size:11px">過重</text>
+<rect class="critical" x="280.0" y="230" width="150.0" height="5" rx="2"/>
+<text x="354.5" y="248.0" text-anchor="middle" style="font-size:11px">肥胖</text>
+<path class="warning" d="M128.0,254.0 h108.0 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-108.0 z"><title>BMI 26.13</title></path>
+<line class="axis" x1="128" x2="430" y1="268" y2="268"/>
+<text x="128.0" y="282.0" text-anchor="start" class="muted" style="font-size:11px">15</text>
+<text x="178.3" y="282.0" text-anchor="middle" class="muted" style="font-size:11px">20</text>
+<text x="228.7" y="282.0" text-anchor="middle" class="muted" style="font-size:11px">25</text>
+<text x="279.0" y="282.0" text-anchor="middle" class="muted" style="font-size:11px">30</text>
+<text x="329.3" y="282.0" text-anchor="middle" class="muted" style="font-size:11px">35</text>
+<text x="379.7" y="282.0" text-anchor="middle" class="muted" style="font-size:11px">40</text>
+<text x="430.0" y="282.0" text-anchor="end" class="muted" style="font-size:11px">45</text>
+<text x="560.0" y="254.0" text-anchor="end" class="ink b" style="font-size:15px">26.13</text>
+<circle class="warning" cx="528.0" cy="270.0" r="4"/><text x="560.0" y="274.0" text-anchor="end">過重</text>
+</svg>

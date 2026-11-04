@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 54" width="560" height="54" role="img" aria-label="身體組成比例：肌肉 69.3%、非基礎脂肪 23.9%、骨礦物 3.8%、基礎脂肪 3.0%">
+<title>身體組成比例：肌肉 69.3%、非基礎脂肪 23.9%、骨礦物 3.8%、基礎脂肪 3.0%</title>
+<style>
+  .bg { fill: #fcfcfb; } text { font-family: -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; fill: #52514e; font-size: 12px; }
+  .ink { fill: #0b0b0b; } .muted { fill: #898781; } .b { font-weight: 600; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; } .track { fill: #f0efec; }
+  .s1 { fill: #2a78d6; } .s2 { fill: #eb6834; } .s3 { fill: #1baf7a; } .s4 { fill: #eda100; }
+  .good { fill: #0ca30c; } .warning { fill: #fab219; } .serious { fill: #ec835a; } .critical { fill: #d03b3b; }
+  .wash-good { fill: #0ca30c; fill-opacity: .13; } .wash-warning { fill: #fab219; fill-opacity: .16; }
+  .wash-serious { fill: #ec835a; fill-opacity: .16; } .wash-critical { fill: #d03b3b; fill-opacity: .14; }
+  .wash-s1 { fill: #2a78d6; fill-opacity: .16; } .ref { stroke: #2a78d6; stroke-width: 1; fill: none; }
+  .line { stroke: #2a78d6; stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+  .dot { fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2; } .dot-raw { fill: #2a78d6; fill-opacity: .45; stroke: #fcfcfb; stroke-width: 1.5; }
+  .thin { stroke: #2a78d6; stroke-width: 1.25; stroke-opacity: .55; fill: none; stroke-linejoin: round; }
+  .mean { stroke: #2a78d6; stroke-width: 1.5; stroke-dasharray: 5 4; fill: none; }
+  .lim { stroke: #0ca30c; stroke-width: 1.25; stroke-dasharray: 4 3; fill: none; } .lim-t { fill: #087a08; } .pin { fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 2; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19; } text { fill: #c3c2b7; } .ink { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; } .track { fill: #262624; }
+    .s1 { fill: #3987e5; } .s2 { fill: #d95926; } .s3 { fill: #199e70; } .s4 { fill: #c98500; }
+    .wash-s1 { fill: #3987e5; } .ref, .line { stroke: #3987e5; }
+    .dot { fill: #3987e5; stroke: #1a1a19; } .dot-raw { fill: #3987e5; stroke: #1a1a19; }
+    .thin, .mean { stroke: #3987e5; } .lim { stroke: #2fbf2f; } .lim-t { fill: #4fcf4f; } .pin { fill: #f0efec; stroke: #1a1a19; }
+  }
+</style>
+<rect class="bg" width="560" height="54" rx="8"/>
+<rect class="s1" x="0.0" y="6" width="384.2" height="14" rx="4"><title>肌肉 69.3%</title></rect>
+<rect class="s2" x="386.2" y="6" width="132.2" height="14"><title>非基礎脂肪 23.9%</title></rect>
+<rect class="s3" x="520.3" y="6" width="21.1" height="14"><title>骨礦物 3.8%</title></rect>
+<rect class="s4" x="543.4" y="6" width="16.6" height="14" rx="4"><title>基礎脂肪 3.0%</title></rect>
+<rect class="s1" x="0" y="34" width="10" height="10" rx="2"/>
+<text x="16.0" y="43.0" text-anchor="start">肌肉 69.3%</text>
+<rect class="s2" x="134" y="34" width="10" height="10" rx="2"/>
+<text x="150.0" y="43.0" text-anchor="start">非基礎脂肪 23.9%</text>
+<rect class="s3" x="307" y="34" width="10" height="10" rx="2"/>
+<text x="323.0" y="43.0" text-anchor="start">骨礦物 3.8%</text>
+<rect class="s4" x="441" y="34" width="10" height="10" rx="2"/>
+<text x="457.0" y="43.0" text-anchor="start">基礎脂肪 3.0%</text>
+</svg>

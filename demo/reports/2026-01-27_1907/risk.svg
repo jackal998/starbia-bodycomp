@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 286" width="560" height="286" role="img" aria-label="風險指標（−4 風險高 … +4 風險低）">
+<title>風險指標（−4 風險高 … +4 風險低）</title>
+<style>
+  .bg { fill: #fcfcfb; } text { font-family: -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; fill: #52514e; font-size: 12px; }
+  .ink { fill: #0b0b0b; } .muted { fill: #898781; } .b { font-weight: 600; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; } .track { fill: #f0efec; }
+  .s1 { fill: #2a78d6; } .s2 { fill: #eb6834; } .s3 { fill: #1baf7a; } .s4 { fill: #eda100; }
+  .good { fill: #0ca30c; } .warning { fill: #fab219; } .serious { fill: #ec835a; } .critical { fill: #d03b3b; }
+  .wash-good { fill: #0ca30c; fill-opacity: .13; } .wash-warning { fill: #fab219; fill-opacity: .16; }
+  .wash-serious { fill: #ec835a; fill-opacity: .16; } .wash-critical { fill: #d03b3b; fill-opacity: .14; }
+  .wash-s1 { fill: #2a78d6; fill-opacity: .16; } .ref { stroke: #2a78d6; stroke-width: 1; fill: none; }
+  .line { stroke: #2a78d6; stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+  .dot { fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2; } .dot-raw { fill: #2a78d6; fill-opacity: .45; stroke: #fcfcfb; stroke-width: 1.5; }
+  .thin { stroke: #2a78d6; stroke-width: 1.25; stroke-opacity: .55; fill: none; stroke-linejoin: round; }
+  .mean { stroke: #2a78d6; stroke-width: 1.5; stroke-dasharray: 5 4; fill: none; }
+  .lim { stroke: #0ca30c; stroke-width: 1.25; stroke-dasharray: 4 3; fill: none; } .lim-t { fill: #087a08; } .pin { fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 2; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19; } text { fill: #c3c2b7; } .ink { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; } .track { fill: #262624; }
+    .s1 { fill: #3987e5; } .s2 { fill: #d95926; } .s3 { fill: #199e70; } .s4 { fill: #c98500; }
+    .wash-s1 { fill: #3987e5; } .ref, .line { stroke: #3987e5; }
+    .dot { fill: #3987e5; stroke: #1a1a19; } .dot-raw { fill: #3987e5; stroke: #1a1a19; }
+    .thin, .mean { stroke: #3987e5; } .lim { stroke: #2fbf2f; } .lim-t { fill: #4fcf4f; } .pin { fill: #f0efec; stroke: #1a1a19; }
+  }
+</style>
+<rect class="bg" width="560" height="286" rx="8"/>
+<text x="0.0" y="26.0" text-anchor="start" class="ink">骨礦物量</text>
+<rect class="track" x="150" y="16" width="270" height="8" rx="4"/>
+<line class="axis" x1="150.0" x2="150.0" y1="27" y2="30"/>
+<text x="150.0" y="42.0" text-anchor="start" class="muted" style="font-size:10px">−4</text>
+<line class="axis" x1="183.8" x2="183.8" y1="27" y2="30"/>
+<text x="183.8" y="42.0" text-anchor="middle" class="muted" style="font-size:10px">−3</text>
+<line class="axis" x1="217.5" x2="217.5" y1="27" y2="30"/>
+<text x="217.5" y="42.0" text-anchor="middle" class="muted" style="font-size:10px">−2</text>
+<line class="axis" x1="251.2" x2="251.2" y1="27" y2="30"/>
+<text x="251.2" y="42.0" text-anchor="middle" class="muted" style="font-size:10px">−1</text>
+<line class="axis" x1="285.0" x2="285.0" y1="27" y2="30"/>
+<text x="285.0" y="42.0" text-anchor="middle" class="muted" style="font-size:10px">0</text>
+<line class="axis" x1="318.8" x2="318.8" y1="27" y2="30"/>
+<text x="318.8" y="42.0" text-anchor="middle" class="muted" style="font-size:10px">+1</text>
+<line class="axis" x1="352.5" x2="352.5" y1="27" y2="30"/>
+<text x="352.5" y="42.0" text-anchor="middle" class="muted" style="font-size:10px">+2</text>
+<line class="axis" x1="386.2" x2="386.2" y1="27" y2="30"/>
+<text x="386.2" y="42.0" text-anchor="middle" class="muted" style="font-size:10px">+3</text>
+<line class="axis" x1="420.0" x2="420.0" y1="27" y2="30"/>
+<text x="420.0" y="42.0" text-anchor="end" class="muted" style="font-size:10px">+4</text>
+<text x="560.0" y="24.0" text-anchor="end" class="ink b" style="font-size:14px">2.97 kg</text>
+<path class="good" d="M150.0,16.0 h135.4 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-135.4 z"><title>骨礦物量 評分 +0.13（確認：三天的螢幕長條都在 ±0.02 內吻合）</title></path>
+<text x="560.0" y="42.0" text-anchor="end" style="font-size:11px">評分 +0.13 · 良好</text>
+<text x="0.0" y="72.0" text-anchor="start" class="ink">上肢肌肉量</text>
+<rect class="track" x="150" y="62" width="270" height="8" rx="4"/>
+<line class="axis" x1="150.0" x2="150.0" y1="73" y2="76"/>
+<text x="150.0" y="88.0" text-anchor="start" class="muted" style="font-size:10px">−4</text>
+<line class="axis" x1="183.8" x2="183.8" y1="73" y2="76"/>
+<text x="183.8" y="88.0" text-anchor="middle" class="muted" style="font-size:10px">−3</text>
+<line class="axis" x1="217.5" x2="217.5" y1="73" y2="76"/>
+<text x="217.5" y="88.0" text-anchor="middle" class="muted" style="font-size:10px">−2</text>
+<line class="axis" x1="251.2" x2="251.2" y1="73" y2="76"/>
+<text x="251.2" y="88.0" text-anchor="middle" class="muted" style="font-size:10px">−1</text>
+<line class="axis" x1="285.0" x2="285.0" y1="73" y2="76"/>
+<text x="285.0" y="88.0" text-anchor="middle" class="muted" style="font-size:10px">0</text>
+<line class="axis" x1="318.8" x2="318.8" y1="73" y2="76"/>
+<text x="318.8" y="88.0" text-anchor="middle" class="muted" style="font-size:10px">+1</text>
+<line class="axis" x1="352.5" x2="352.5" y1="73" y2="76"/>
+<text x="352.5" y="88.0" text-anchor="middle" class="muted" style="font-size:10px">+2</text>
+<line class="axis" x1="386.2" x2="386.2" y1="73" y2="76"/>
+<text x="386.2" y="88.0" text-anchor="middle" class="muted" style="font-size:10px">+3</text>
+<line class="axis" x1="420.0" x2="420.0" y1="73" y2="76"/>
+<text x="420.0" y="88.0" text-anchor="end" class="muted" style="font-size:10px">+4</text>
+<text x="560.0" y="70.0" text-anchor="end" class="ink b" style="font-size:14px">7.59 kg</text>
+<path class="good" d="M150.0,62.0 h113.8 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-113.8 z"><title>上肢肌肉量 評分 −0.51（確認：= 左右上肢肌肉評分的平均（四次量測都成立））</title></path>
+<text x="560.0" y="88.0" text-anchor="end" style="font-size:11px">評分 −0.51 · 尚可</text>
+<text x="0.0" y="118.0" text-anchor="start" class="ink">下肢肌肉量</text>
+<rect class="track" x="150" y="108" width="270" height="8" rx="4"/>
+<line class="axis" x1="150.0" x2="150.0" y1="119" y2="122"/>
+<text x="150.0" y="134.0" text-anchor="start" class="muted" style="font-size:10px">−4</text>
+<line class="axis" x1="183.8" x2="183.8" y1="119" y2="122"/>
+<text x="183.8" y="134.0" text-anchor="middle" class="muted" style="font-size:10px">−3</text>
+<line class="axis" x1="217.5" x2="217.5" y1="119" y2="122"/>
+<text x="217.5" y="134.0" text-anchor="middle" class="muted" style="font-size:10px">−2</text>
+<line class="axis" x1="251.2" x2="251.2" y1="119" y2="122"/>
+<text x="251.2" y="134.0" text-anchor="middle" class="muted" style="font-size:10px">−1</text>
+<line class="axis" x1="285.0" x2="285.0" y1="119" y2="122"/>
+<text x="285.0" y="134.0" text-anchor="middle" class="muted" style="font-size:10px">0</text>
+<line class="axis" x1="318.8" x2="318.8" y1="119" y2="122"/>
+<text x="318.8" y="134.0" text-anchor="middle" class="muted" style="font-size:10px">+1</text>
+<line class="axis" x1="352.5" x2="352.5" y1="119" y2="122"/>
+<text x="352.5" y="134.0" text-anchor="middle" class="muted" style="font-size:10px">+2</text>
+<line class="axis" x1="386.2" x2="386.2" y1="119" y2="122"/>
+<text x="386.2" y="134.0" text-anchor="middle" class="muted" style="font-size:10px">+3</text>
+<line class="axis" x1="420.0" x2="420.0" y1="119" y2="122"/>
+<text x="420.0" y="134.0" text-anchor="end" class="muted" style="font-size:10px">+4</text>
+<text x="560.0" y="116.0" text-anchor="end" class="ink b" style="font-size:14px">21.64 kg</text>
+<path class="good" d="M150.0,108.0 h138.8 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-138.8 z"><title>下肢肌肉量 評分 +0.23（確認：= 左右下肢肌肉評分的平均（四次量測都成立））</title></path>
+<text x="560.0" y="134.0" text-anchor="end" style="font-size:11px">評分 +0.23 · 良好</text>
+<text x="0.0" y="164.0" text-anchor="start" class="ink">軀幹肌肉量</text>
+<rect class="track" x="150" y="154" width="270" height="8" rx="4"/>
+<line class="axis" x1="150.0" x2="150.0" y1="165" y2="168"/>
+<text x="150.0" y="180.0" text-anchor="start" class="muted" style="font-size:10px">−4</text>
+<line class="axis" x1="183.8" x2="183.8" y1="165" y2="168"/>
+<text x="183.8" y="180.0" text-anchor="middle" class="muted" style="font-size:10px">−3</text>
+<line class="axis" x1="217.5" x2="217.5" y1="165" y2="168"/>
+<text x="217.5" y="180.0" text-anchor="middle" class="muted" style="font-size:10px">−2</text>
+<line class="axis" x1="251.2" x2="251.2" y1="165" y2="168"/>
+<text x="251.2" y="180.0" text-anchor="middle" class="muted" style="font-size:10px">−1</text>
+<line class="axis" x1="285.0" x2="285.0" y1="165" y2="168"/>
+<text x="285.0" y="180.0" text-anchor="middle" class="muted" style="font-size:10px">0</text>
+<line class="axis" x1="318.8" x2="318.8" y1="165" y2="168"/>
+<text x="318.8" y="180.0" text-anchor="middle" class="muted" style="font-size:10px">+1</text>
+<line class="axis" x1="352.5" x2="352.5" y1="165" y2="168"/>
+<text x="352.5" y="180.0" text-anchor="middle" class="muted" style="font-size:10px">+2</text>
+<line class="axis" x1="386.2" x2="386.2" y1="165" y2="168"/>
+<text x="386.2" y="180.0" text-anchor="middle" class="muted" style="font-size:10px">+3</text>
+<line class="axis" x1="420.0" x2="420.0" y1="165" y2="168"/>
+<text x="420.0" y="180.0" text-anchor="end" class="muted" style="font-size:10px">+4</text>
+<text x="560.0" y="162.0" text-anchor="end" class="ink b" style="font-size:14px">24.91 kg</text>
+<path class="good" d="M150.0,154.0 h125.3 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-125.3 z"><title>軀幹肌肉量 評分 −0.17（確認：= 軀幹肌肉評分（同一欄位））</title></path>
+<text x="560.0" y="180.0" text-anchor="end" style="font-size:11px">評分 −0.17 · 尚可</text>
+<text x="0.0" y="210.0" text-anchor="start" class="ink">骨骼肌質量指數</text>
+<rect class="track" x="150" y="200" width="270" height="8" rx="4"/>
+<line class="axis" x1="150.0" x2="150.0" y1="211" y2="214"/>
+<text x="150.0" y="226.0" text-anchor="start" class="muted" style="font-size:10px">−4</text>
+<line class="axis" x1="183.8" x2="183.8" y1="211" y2="214"/>
+<text x="183.8" y="226.0" text-anchor="middle" class="muted" style="font-size:10px">−3</text>
+<line class="axis" x1="217.5" x2="217.5" y1="211" y2="214"/>
+<text x="217.5" y="226.0" text-anchor="middle" class="muted" style="font-size:10px">−2</text>
+<line class="axis" x1="251.2" x2="251.2" y1="211" y2="214"/>
+<text x="251.2" y="226.0" text-anchor="middle" class="muted" style="font-size:10px">−1</text>
+<line class="axis" x1="285.0" x2="285.0" y1="211" y2="214"/>
+<text x="285.0" y="226.0" text-anchor="middle" class="muted" style="font-size:10px">0</text>
+<line class="axis" x1="318.8" x2="318.8" y1="211" y2="214"/>
+<text x="318.8" y="226.0" text-anchor="middle" class="muted" style="font-size:10px">+1</text>
+<line class="axis" x1="352.5" x2="352.5" y1="211" y2="214"/>
+<text x="352.5" y="226.0" text-anchor="middle" class="muted" style="font-size:10px">+2</text>
+<line class="axis" x1="386.2" x2="386.2" y1="211" y2="214"/>
+<text x="386.2" y="226.0" text-anchor="middle" class="muted" style="font-size:10px">+3</text>
+<line class="axis" x1="420.0" x2="420.0" y1="211" y2="214"/>
+<text x="420.0" y="226.0" text-anchor="end" class="muted" style="font-size:10px">+4</text>
+<text x="560.0" y="208.0" text-anchor="end" class="ink b" style="font-size:14px">12.13 kg/m²</text>
+<path class="good" d="M150.0,200.0 h141.8 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-141.8 z"><title>骨骼肌質量指數 評分 +0.32（確認：三天的螢幕長條（扣除圓角偏差）都在 ±0.02 內吻合）</title></path>
+<text x="560.0" y="226.0" text-anchor="end" style="font-size:11px">評分 +0.32 · 良好</text>
+<text x="0.0" y="256.0" text-anchor="start" class="ink">四肢肌肉質量指數</text>
+<rect class="track" x="150" y="246" width="270" height="8" rx="4"/>
+<line class="axis" x1="150.0" x2="150.0" y1="257" y2="260"/>
+<text x="150.0" y="272.0" text-anchor="start" class="muted" style="font-size:10px">−4</text>
+<line class="axis" x1="183.8" x2="183.8" y1="257" y2="260"/>
+<text x="183.8" y="272.0" text-anchor="middle" class="muted" style="font-size:10px">−3</text>
+<line class="axis" x1="217.5" x2="217.5" y1="257" y2="260"/>
+<text x="217.5" y="272.0" text-anchor="middle" class="muted" style="font-size:10px">−2</text>
+<line class="axis" x1="251.2" x2="251.2" y1="257" y2="260"/>
+<text x="251.2" y="272.0" text-anchor="middle" class="muted" style="font-size:10px">−1</text>
+<line class="axis" x1="285.0" x2="285.0" y1="257" y2="260"/>
+<text x="285.0" y="272.0" text-anchor="middle" class="muted" style="font-size:10px">0</text>
+<line class="axis" x1="318.8" x2="318.8" y1="257" y2="260"/>
+<text x="318.8" y="272.0" text-anchor="middle" class="muted" style="font-size:10px">+1</text>
+<line class="axis" x1="352.5" x2="352.5" y1="257" y2="260"/>
+<text x="352.5" y="272.0" text-anchor="middle" class="muted" style="font-size:10px">+2</text>
+<line class="axis" x1="386.2" x2="386.2" y1="257" y2="260"/>
+<text x="386.2" y="272.0" text-anchor="middle" class="muted" style="font-size:10px">+3</text>
+<line class="axis" x1="420.0" x2="420.0" y1="257" y2="260"/>
+<text x="420.0" y="272.0" text-anchor="end" class="muted" style="font-size:10px">+4</text>
+<text x="560.0" y="254.0" text-anchor="end" class="ink b" style="font-size:14px">9.88 kg/m²</text>
+<path class="good" d="M150.0,246.0 h137.1 a4,4 0 0 1 4,4 v0.0 a4,4 0 0 1 -4,4 h-137.1 z"><title>四肢肌肉質量指數 評分 +0.18（確認：三天的螢幕長條（扣除圓角偏差）都在 ±0.02 內吻合，且與 ASMI 數值成線性）</title></path>
+<text x="560.0" y="272.0" text-anchor="end" style="font-size:11px">評分 +0.18 · 良好</text>
+</svg>

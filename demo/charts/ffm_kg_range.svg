@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 216" width="340" height="216" role="img" aria-label="去脂質量對照正常範圍（機器每次量測給的正常範圍 52.07–63.78kg）：最新 56.57kg，在範圍內">
+<title>去脂質量對照正常範圍（機器每次量測給的正常範圍 52.07–63.78kg）：最新 56.57kg，在範圍內</title>
+<style>
+  .bg { fill: #fcfcfb; } text { font-family: -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; fill: #52514e; font-size: 12px; }
+  .ink { fill: #0b0b0b; } .muted { fill: #898781; } .b { font-weight: 600; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; } .track { fill: #f0efec; }
+  .s1 { fill: #2a78d6; } .s2 { fill: #eb6834; } .s3 { fill: #1baf7a; } .s4 { fill: #eda100; }
+  .good { fill: #0ca30c; } .warning { fill: #fab219; } .serious { fill: #ec835a; } .critical { fill: #d03b3b; }
+  .wash-good { fill: #0ca30c; fill-opacity: .13; } .wash-warning { fill: #fab219; fill-opacity: .16; }
+  .wash-serious { fill: #ec835a; fill-opacity: .16; } .wash-critical { fill: #d03b3b; fill-opacity: .14; }
+  .wash-s1 { fill: #2a78d6; fill-opacity: .16; } .ref { stroke: #2a78d6; stroke-width: 1; fill: none; }
+  .line { stroke: #2a78d6; stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+  .dot { fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2; } .dot-raw { fill: #2a78d6; fill-opacity: .45; stroke: #fcfcfb; stroke-width: 1.5; }
+  .thin { stroke: #2a78d6; stroke-width: 1.25; stroke-opacity: .55; fill: none; stroke-linejoin: round; }
+  .mean { stroke: #2a78d6; stroke-width: 1.5; stroke-dasharray: 5 4; fill: none; }
+  .lim { stroke: #0ca30c; stroke-width: 1.25; stroke-dasharray: 4 3; fill: none; } .lim-t { fill: #087a08; } .pin { fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 2; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19; } text { fill: #c3c2b7; } .ink { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; } .track { fill: #262624; }
+    .s1 { fill: #3987e5; } .s2 { fill: #d95926; } .s3 { fill: #199e70; } .s4 { fill: #c98500; }
+    .wash-s1 { fill: #3987e5; } .ref, .line { stroke: #3987e5; }
+    .dot { fill: #3987e5; stroke: #1a1a19; } .dot-raw { fill: #3987e5; stroke: #1a1a19; }
+    .thin, .mean { stroke: #3987e5; } .lim { stroke: #2fbf2f; } .lim-t { fill: #4fcf4f; } .pin { fill: #f0efec; stroke: #1a1a19; }
+  }
+</style>
+<rect class="bg" width="340" height="216" rx="8"/>
+<text x="14.0" y="22.0" text-anchor="start" class="ink b" style="font-size:13px">去脂質量 · 對照正常範圍</text>
+<text x="326.0" y="22.0" text-anchor="end" style="font-size:11px">正常 52.07–63.78 kg</text>
+<text x="14.0" y="50.0" text-anchor="start" class="ink b" style="font-size:22px">在範圍內</text>
+<text x="326.0" y="50.0" text-anchor="end" style="font-size:11px">距上限 7.21 · 距下限 4.50 kg</text>
+<text x="14.0" y="68.0" text-anchor="start" class="muted" style="font-size:11px">最新 56.57 kg · 綠帶 = 機器每次量測給的正常範圍</text>
+<polygon class="wash-good" points="44.0,91.3 59.1,91.3 74.0,91.3 103.4,91.3 118.6,91.3 148.0,91.3 170.4,91.3 199.7,91.3 222.2,91.3 229.5,91.3 244.4,91.3 266.3,91.3 281.0,91.3 288.6,91.3 310.9,91.3 326.0,91.3 326.0,161.6 310.9,161.6 288.6,161.6 281.0,161.6 266.3,161.6 244.4,161.6 229.5,161.6 222.2,161.6 199.7,161.6 170.4,161.6 148.0,161.6 118.6,161.6 103.4,161.6 74.0,161.6 59.1,161.6 44.0,161.6"/>
+<line class="grid" x1="44" x2="326" y1="174.0" y2="174.0"/>
+<text x="38.0" y="178.0" text-anchor="end" class="muted" style="font-size:11px">50</text>
+<line class="grid" x1="44" x2="326" y1="144.0" y2="144.0"/>
+<text x="38.0" y="148.0" text-anchor="end" class="muted" style="font-size:11px">55</text>
+<line class="grid" x1="44" x2="326" y1="114.0" y2="114.0"/>
+<text x="38.0" y="118.0" text-anchor="end" class="muted" style="font-size:11px">60</text>
+<line class="grid" x1="44" x2="326" y1="84.0" y2="84.0"/>
+<text x="38.0" y="88.0" text-anchor="end" class="muted" style="font-size:11px">65</text>
+<line class="axis" x1="53.5" x2="53.5" y1="174" y2="178"/>
+<text x="53.5" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">01-05</text>
+<line class="axis" x1="105.3" x2="105.3" y1="174" y2="178"/>
+<text x="105.3" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">01-12</text>
+<line class="axis" x1="157.1" x2="157.1" y1="174" y2="178"/>
+<text x="157.1" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">01-19</text>
+<line class="axis" x1="208.9" x2="208.9" y1="174" y2="178"/>
+<text x="208.9" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">01-26</text>
+<line class="axis" x1="260.6" x2="260.6" y1="174" y2="178"/>
+<text x="260.6" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">02-02</text>
+<line class="axis" x1="312.4" x2="312.4" y1="174" y2="178"/>
+<text x="312.4" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">02-09</text>
+<polyline class="lim" points="44.0,91.3 59.1,91.3 74.0,91.3 103.4,91.3 118.6,91.3 148.0,91.3 170.4,91.3 199.7,91.3 222.2,91.3 229.5,91.3 244.4,91.3 266.3,91.3 281.0,91.3 288.6,91.3 310.9,91.3 326.0,91.3"/>
+<text x="324.0" y="86.3" text-anchor="end" class="lim-t" style="font-size:10px">上限 63.78</text>
+<polyline class="lim" points="44.0,161.6 59.1,161.6 74.0,161.6 103.4,161.6 118.6,161.6 148.0,161.6 170.4,161.6 199.7,161.6 222.2,161.6 229.5,161.6 244.4,161.6 266.3,161.6 281.0,161.6 288.6,161.6 310.9,161.6 326.0,161.6"/>
+<text x="324.0" y="156.6" text-anchor="end" class="lim-t" style="font-size:10px">下限 52.07</text>
+<polyline class="line" points="59.1,133.2 62.3,133.2 65.4,133.2 68.5,133.2 71.7,133.2 74.8,133.2 78.0,133.2 81.1,133.2 84.3,133.2 87.4,133.3 90.6,133.3 93.7,133.3 96.9,133.4 100.0,133.4 103.2,133.5 106.3,133.5 109.5,133.6 112.6,133.6 115.8,133.7 118.9,133.7 122.1,133.8 125.2,133.8 128.3,133.9 131.5,133.9 134.6,134.0 137.8,134.0 140.9,134.1 144.1,134.1 147.2,134.2 150.4,134.2 153.5,134.3 156.7,134.3 159.8,134.3 163.0,134.4 166.1,134.4 169.3,134.4 172.4,134.5 175.6,134.5 178.7,134.5 181.9,134.6 185.0,134.6 188.1,134.6 191.3,134.6 194.4,134.6 197.6,134.7 200.7,134.7 203.9,134.7 207.0,134.7 210.2,134.7 213.3,134.8 216.5,134.8 219.6,134.8 222.8,134.8 225.9,134.9 229.1,134.9 232.2,134.9 235.4,135.0 238.5,135.0 241.7,135.0 244.8,135.1 247.9,135.1 251.1,135.2 254.2,135.2 257.4,135.2 260.5,135.3 263.7,135.3 266.8,135.4 270.0,135.4 273.1,135.5 276.3,135.5 279.4,135.6 282.6,135.6 285.7,135.7 288.9,135.7 292.0,135.8 295.2,135.8 298.3,135.8 301.5,135.9 304.6,135.9 307.7,135.9 310.9,135.9"/>
+<g><title>2026-01-05 18:05：56.67 kg（在範圍內）</title><circle cx="59.1" cy="134.0" r="11" fill="transparent"/><circle class="dot-raw" cx="59.1" cy="134.0" r="4"/></g>
+<g><title>2026-01-07 18:19：56.69 kg（在範圍內）</title><circle cx="74.0" cy="133.9" r="11" fill="transparent"/><circle class="dot-raw" cx="74.0" cy="133.9" r="4"/></g>
+<g><title>2026-01-11 17:54：57.54 kg（在範圍內）</title><circle cx="103.4" cy="128.8" r="11" fill="transparent"/><circle class="dot-raw" cx="103.4" cy="128.8" r="4"/></g>
+<g><title>2026-01-13 19:05：56.33 kg（在範圍內）</title><circle cx="118.6" cy="136.0" r="11" fill="transparent"/><circle class="dot-raw" cx="118.6" cy="136.0" r="4"/></g>
+<g><title>2026-01-17 18:30：56.42 kg（在範圍內）</title><circle cx="148.0" cy="135.5" r="11" fill="transparent"/><circle class="dot-raw" cx="148.0" cy="135.5" r="4"/></g>
+<g><title>2026-01-20 19:02：56.46 kg（在範圍內）</title><circle cx="170.4" cy="135.2" r="11" fill="transparent"/><circle class="dot-raw" cx="170.4" cy="135.2" r="4"/></g>
+<g><title>2026-01-24 18:21：56.42 kg（在範圍內）</title><circle cx="199.7" cy="135.5" r="11" fill="transparent"/><circle class="dot-raw" cx="199.7" cy="135.5" r="4"/></g>
+<g><title>2026-01-27 19:07：57.08 kg（在範圍內）</title><circle cx="222.2" cy="131.5" r="11" fill="transparent"/><circle class="dot-raw" cx="222.2" cy="131.5" r="4"/></g>
+<g><title>2026-01-28 19:00：56.44 kg（在範圍內）</title><circle cx="229.5" cy="135.4" r="11" fill="transparent"/><circle class="dot-raw" cx="229.5" cy="135.4" r="4"/></g>
+<g><title>2026-01-30 19:07：56.49 kg（在範圍內）</title><circle cx="244.4" cy="135.1" r="11" fill="transparent"/><circle class="dot-raw" cx="244.4" cy="135.1" r="4"/></g>
+<g><title>2026-02-02 18:17：56.54 kg（在範圍內）</title><circle cx="266.3" cy="134.8" r="11" fill="transparent"/><circle class="dot-raw" cx="266.3" cy="134.8" r="4"/></g>
+<g><title>2026-02-04 18:01：55.97 kg（在範圍內）</title><circle cx="281.0" cy="138.2" r="11" fill="transparent"/><circle class="dot-raw" cx="281.0" cy="138.2" r="4"/></g>
+<g><title>2026-02-05 18:40：56.36 kg（在範圍內）</title><circle cx="288.6" cy="135.8" r="11" fill="transparent"/><circle class="dot-raw" cx="288.6" cy="135.8" r="4"/></g>
+<g><title>2026-02-08 19:01：56.57 kg（在範圍內）</title><circle cx="310.9" cy="134.6" r="11" fill="transparent"/><circle class="dot-raw" cx="310.9" cy="134.6" r="4"/></g>
+<circle class="dot-raw" cx="48" cy="207" r="4"/>
+<text x="56.0" y="211.0" text-anchor="start" class="muted" style="font-size:10px">每次量測</text>
+<line class="line" x1="108" x2="124" y1="207" y2="207"/>
+<text x="128.0" y="211.0" text-anchor="start" class="muted" style="font-size:10px">趨勢</text>
+<rect class="wash-good" x="160" y="202" width="14" height="10" rx="2"/>
+<text x="178.0" y="211.0" text-anchor="start" class="muted" style="font-size:10px">正常範圍</text>
+</svg>

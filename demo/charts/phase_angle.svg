@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 216" width="340" height="216" role="img" aria-label="相位角：2026-01-05 18:05 6.8°、2026-01-07 18:19 6.9°、2026-01-11 17:54 6.9°、2026-01-13 19:05 6.8°、2026-01-17 18:30 6.8°、2026-01-20 19:02 6.7°、2026-01-24 18:21 6.8°、2026-01-27 19:07 7.1°、2026-01-28 19:00 6.7°、2026-01-30 19:07 6.9°、2026-02-02 18:17 6.8°、2026-02-04 18:01 6.8°、2026-02-05 18:40 6.8°、2026-02-08 19:01 6.9°；平均 6.84 ± 0.10°（只到小數一位、短期變化小，起伏多半是量測誤差）">
+<title>相位角：2026-01-05 18:05 6.8°、2026-01-07 18:19 6.9°、2026-01-11 17:54 6.9°、2026-01-13 19:05 6.8°、2026-01-17 18:30 6.8°、2026-01-20 19:02 6.7°、2026-01-24 18:21 6.8°、2026-01-27 19:07 7.1°、2026-01-28 19:00 6.7°、2026-01-30 19:07 6.9°、2026-02-02 18:17 6.8°、2026-02-04 18:01 6.8°、2026-02-05 18:40 6.8°、2026-02-08 19:01 6.9°；平均 6.84 ± 0.10°（只到小數一位、短期變化小，起伏多半是量測誤差）</title>
+<style>
+  .bg { fill: #fcfcfb; } text { font-family: -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; fill: #52514e; font-size: 12px; }
+  .ink { fill: #0b0b0b; } .muted { fill: #898781; } .b { font-weight: 600; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; } .track { fill: #f0efec; }
+  .s1 { fill: #2a78d6; } .s2 { fill: #eb6834; } .s3 { fill: #1baf7a; } .s4 { fill: #eda100; }
+  .good { fill: #0ca30c; } .warning { fill: #fab219; } .serious { fill: #ec835a; } .critical { fill: #d03b3b; }
+  .wash-good { fill: #0ca30c; fill-opacity: .13; } .wash-warning { fill: #fab219; fill-opacity: .16; }
+  .wash-serious { fill: #ec835a; fill-opacity: .16; } .wash-critical { fill: #d03b3b; fill-opacity: .14; }
+  .wash-s1 { fill: #2a78d6; fill-opacity: .16; } .ref { stroke: #2a78d6; stroke-width: 1; fill: none; }
+  .line { stroke: #2a78d6; stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+  .dot { fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2; } .dot-raw { fill: #2a78d6; fill-opacity: .45; stroke: #fcfcfb; stroke-width: 1.5; }
+  .thin { stroke: #2a78d6; stroke-width: 1.25; stroke-opacity: .55; fill: none; stroke-linejoin: round; }
+  .mean { stroke: #2a78d6; stroke-width: 1.5; stroke-dasharray: 5 4; fill: none; }
+  .lim { stroke: #0ca30c; stroke-width: 1.25; stroke-dasharray: 4 3; fill: none; } .lim-t { fill: #087a08; } .pin { fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 2; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19; } text { fill: #c3c2b7; } .ink { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; } .track { fill: #262624; }
+    .s1 { fill: #3987e5; } .s2 { fill: #d95926; } .s3 { fill: #199e70; } .s4 { fill: #c98500; }
+    .wash-s1 { fill: #3987e5; } .ref, .line { stroke: #3987e5; }
+    .dot { fill: #3987e5; stroke: #1a1a19; } .dot-raw { fill: #3987e5; stroke: #1a1a19; }
+    .thin, .mean { stroke: #3987e5; } .lim { stroke: #2fbf2f; } .lim-t { fill: #4fcf4f; } .pin { fill: #f0efec; stroke: #1a1a19; }
+  }
+</style>
+<rect class="bg" width="340" height="216" rx="8"/>
+<text x="14.0" y="22.0" text-anchor="start" class="ink b" style="font-size:13px">相位角</text>
+<text x="14.0" y="50.0" text-anchor="start" class="ink b" style="font-size:22px">6.9</text>
+<text x="58.5" y="50.0" text-anchor="start">°</text>
+<text x="326.0" y="22.0" text-anchor="end" style="font-size:11px">14 次：6.7–7.1 °</text>
+<text x="326.0" y="50.0" text-anchor="end" style="font-size:11px">平均 6.84 ± 0.10 °</text>
+<text x="14.0" y="68.0" text-anchor="start" class="muted" style="font-size:11px">只到小數一位、短期變化小，起伏多半是量測誤差</text>
+<line class="grid" x1="44" x2="326" y1="174.0" y2="174.0"/>
+<text x="38.0" y="178.0" text-anchor="end" class="muted" style="font-size:11px">6.5</text>
+<line class="grid" x1="44" x2="326" y1="144.0" y2="144.0"/>
+<text x="38.0" y="148.0" text-anchor="end" class="muted" style="font-size:11px">6.75</text>
+<line class="grid" x1="44" x2="326" y1="114.0" y2="114.0"/>
+<text x="38.0" y="118.0" text-anchor="end" class="muted" style="font-size:11px">7</text>
+<line class="grid" x1="44" x2="326" y1="84.0" y2="84.0"/>
+<text x="38.0" y="88.0" text-anchor="end" class="muted" style="font-size:11px">7.25</text>
+<line class="axis" x1="53.5" x2="53.5" y1="174" y2="178"/>
+<text x="53.5" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">01-05</text>
+<line class="axis" x1="105.3" x2="105.3" y1="174" y2="178"/>
+<text x="105.3" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">01-12</text>
+<line class="axis" x1="157.1" x2="157.1" y1="174" y2="178"/>
+<text x="157.1" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">01-19</text>
+<line class="axis" x1="208.9" x2="208.9" y1="174" y2="178"/>
+<text x="208.9" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">01-26</text>
+<line class="axis" x1="260.6" x2="260.6" y1="174" y2="178"/>
+<text x="260.6" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">02-02</text>
+<line class="axis" x1="312.4" x2="312.4" y1="174" y2="178"/>
+<text x="312.4" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">02-09</text>
+<rect class="wash-s1" x="44" y="121.6" width="282" height="24.2"/>
+<line class="mean" x1="44" x2="326" y1="133.7" y2="133.7"/>
+<g><title>2026-01-05 18:05：6.8 °</title><circle cx="59.1" cy="138.0" r="11" fill="transparent"/><circle class="dot-raw" cx="59.1" cy="138.0" r="4"/></g>
+<g><title>2026-01-07 18:19：6.9 °</title><circle cx="74.0" cy="126.0" r="11" fill="transparent"/><circle class="dot-raw" cx="74.0" cy="126.0" r="4"/></g>
+<g><title>2026-01-11 17:54：6.9 °</title><circle cx="103.4" cy="126.0" r="11" fill="transparent"/><circle class="dot-raw" cx="103.4" cy="126.0" r="4"/></g>
+<g><title>2026-01-13 19:05：6.8 °</title><circle cx="118.6" cy="138.0" r="11" fill="transparent"/><circle class="dot-raw" cx="118.6" cy="138.0" r="4"/></g>
+<g><title>2026-01-17 18:30：6.8 °</title><circle cx="148.0" cy="138.0" r="11" fill="transparent"/><circle class="dot-raw" cx="148.0" cy="138.0" r="4"/></g>
+<g><title>2026-01-20 19:02：6.7 °</title><circle cx="170.4" cy="150.0" r="11" fill="transparent"/><circle class="dot-raw" cx="170.4" cy="150.0" r="4"/></g>
+<g><title>2026-01-24 18:21：6.8 °</title><circle cx="199.7" cy="138.0" r="11" fill="transparent"/><circle class="dot-raw" cx="199.7" cy="138.0" r="4"/></g>
+<g><title>2026-01-27 19:07：7.1 °</title><circle cx="222.2" cy="102.0" r="11" fill="transparent"/><circle class="dot-raw" cx="222.2" cy="102.0" r="4"/></g>
+<g><title>2026-01-28 19:00：6.7 °</title><circle cx="229.5" cy="150.0" r="11" fill="transparent"/><circle class="dot-raw" cx="229.5" cy="150.0" r="4"/></g>
+<g><title>2026-01-30 19:07：6.9 °</title><circle cx="244.4" cy="126.0" r="11" fill="transparent"/><circle class="dot-raw" cx="244.4" cy="126.0" r="4"/></g>
+<g><title>2026-02-02 18:17：6.8 °</title><circle cx="266.3" cy="138.0" r="11" fill="transparent"/><circle class="dot-raw" cx="266.3" cy="138.0" r="4"/></g>
+<g><title>2026-02-04 18:01：6.8 °</title><circle cx="281.0" cy="138.0" r="11" fill="transparent"/><circle class="dot-raw" cx="281.0" cy="138.0" r="4"/></g>
+<g><title>2026-02-05 18:40：6.8 °</title><circle cx="288.6" cy="138.0" r="11" fill="transparent"/><circle class="dot-raw" cx="288.6" cy="138.0" r="4"/></g>
+<g><title>2026-02-08 19:01：6.9 °</title><circle cx="310.9" cy="126.0" r="11" fill="transparent"/><circle class="dot-raw" cx="310.9" cy="126.0" r="4"/></g>
+<text x="170.4" y="167.0" text-anchor="middle" style="font-size:10px">6.7</text>
+<text x="214.2" y="106.0" text-anchor="end" style="font-size:10px">7.1</text>
+<circle class="dot-raw" cx="48" cy="207" r="4"/>
+<text x="56.0" y="211.0" text-anchor="start" class="muted" style="font-size:10px">每次量測</text>
+<line class="mean" x1="108" x2="124" y1="207" y2="207"/>
+<text x="128.0" y="211.0" text-anchor="start" class="muted" style="font-size:10px">平均</text>
+<rect class="wash-s1" x="160" y="202" width="14" height="10" rx="2"/>
+<text x="178.0" y="211.0" text-anchor="start" class="muted" style="font-size:10px">平均 ± 1 標準差</text>
+</svg>

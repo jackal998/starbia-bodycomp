@@ -1,0 +1,38 @@
+name: 新增量測
+description: 上傳 STARBIA 701 的 QR code 照片 → 自動解析、確認時間 → 產生當日報表與歷史報表
+title: "量測"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        把機器「掃描報告結果」畫面的 **QR code 照片** 拖進下面的欄位就好。
+        送出後機器人會留言：解析出的數值、它打算用的**實際量測時間**。確認無誤回覆 `/confirm`；
+        時間不對就回覆 `/time 2026-01-15 18:30`（台灣時間）再 `/confirm`。
+  - type: textarea
+    id: qr
+    attributes:
+      label: QR code 照片
+      description: 拖曳或貼上照片，可以多張（例如拍糊了多拍一張）；一個 issue 只放同一次量測。
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: 實際量測時間
+      description: 台灣時間。留空 = 照片的拍攝時間（如果 GitHub 有保留），否則用這個 issue 的建立時間。機器上的時間常常不準，不要抄它。
+      placeholder: "2026-01-15 18:30"
+    validations:
+      required: false
+  - type: textarea
+    id: screens
+    attributes:
+      label: 機器螢幕報告照片（選填）
+      description: 報告總覽、各肢段、體組成分析等頁面。會一起存進 body-comp/raw/，日後可用來核對數值。
+    validations:
+      required: false
+  - type: textarea
+    id: note
+    attributes:
+      label: 備註（選填）
+    validations:
+      required: false

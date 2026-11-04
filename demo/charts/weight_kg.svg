@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 216" width="340" height="216" role="img" aria-label="體重：2026-01-05 18:05 77.9kg、2026-01-07 18:19 77.5kg、2026-01-11 17:54 77.3kg、2026-01-13 19:05 77.0kg、2026-01-17 18:30 77.0kg、2026-01-20 19:02 76.5kg、2026-01-24 18:21 76.2kg、2026-01-27 19:07 76.5kg、2026-01-28 19:00 75.8kg、2026-01-30 19:07 76.0kg、2026-02-02 18:17 75.7kg、2026-02-04 18:01 75.6kg、2026-02-05 18:40 75.0kg、2026-02-08 19:01 75.4kg；近 4 週斜率 −0.51 ± 0.06kg/週，明確下降（改善）；波動 ±0.21kg">
+<title>體重：2026-01-05 18:05 77.9kg、2026-01-07 18:19 77.5kg、2026-01-11 17:54 77.3kg、2026-01-13 19:05 77.0kg、2026-01-17 18:30 77.0kg、2026-01-20 19:02 76.5kg、2026-01-24 18:21 76.2kg、2026-01-27 19:07 76.5kg、2026-01-28 19:00 75.8kg、2026-01-30 19:07 76.0kg、2026-02-02 18:17 75.7kg、2026-02-04 18:01 75.6kg、2026-02-05 18:40 75.0kg、2026-02-08 19:01 75.4kg；近 4 週斜率 −0.51 ± 0.06kg/週，明確下降（改善）；波動 ±0.21kg</title>
+<style>
+  .bg { fill: #fcfcfb; } text { font-family: -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; fill: #52514e; font-size: 12px; }
+  .ink { fill: #0b0b0b; } .muted { fill: #898781; } .b { font-weight: 600; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; } .track { fill: #f0efec; }
+  .s1 { fill: #2a78d6; } .s2 { fill: #eb6834; } .s3 { fill: #1baf7a; } .s4 { fill: #eda100; }
+  .good { fill: #0ca30c; } .warning { fill: #fab219; } .serious { fill: #ec835a; } .critical { fill: #d03b3b; }
+  .wash-good { fill: #0ca30c; fill-opacity: .13; } .wash-warning { fill: #fab219; fill-opacity: .16; }
+  .wash-serious { fill: #ec835a; fill-opacity: .16; } .wash-critical { fill: #d03b3b; fill-opacity: .14; }
+  .wash-s1 { fill: #2a78d6; fill-opacity: .16; } .ref { stroke: #2a78d6; stroke-width: 1; fill: none; }
+  .line { stroke: #2a78d6; stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+  .dot { fill: #2a78d6; stroke: #fcfcfb; stroke-width: 2; } .dot-raw { fill: #2a78d6; fill-opacity: .45; stroke: #fcfcfb; stroke-width: 1.5; }
+  .thin { stroke: #2a78d6; stroke-width: 1.25; stroke-opacity: .55; fill: none; stroke-linejoin: round; }
+  .mean { stroke: #2a78d6; stroke-width: 1.5; stroke-dasharray: 5 4; fill: none; }
+  .lim { stroke: #0ca30c; stroke-width: 1.25; stroke-dasharray: 4 3; fill: none; } .lim-t { fill: #087a08; } .pin { fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 2; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19; } text { fill: #c3c2b7; } .ink { fill: #f0efec; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; } .track { fill: #262624; }
+    .s1 { fill: #3987e5; } .s2 { fill: #d95926; } .s3 { fill: #199e70; } .s4 { fill: #c98500; }
+    .wash-s1 { fill: #3987e5; } .ref, .line { stroke: #3987e5; }
+    .dot { fill: #3987e5; stroke: #1a1a19; } .dot-raw { fill: #3987e5; stroke: #1a1a19; }
+    .thin, .mean { stroke: #3987e5; } .lim { stroke: #2fbf2f; } .lim-t { fill: #4fcf4f; } .pin { fill: #f0efec; stroke: #1a1a19; }
+  }
+</style>
+<rect class="bg" width="340" height="216" rx="8"/>
+<text x="14.0" y="22.0" text-anchor="start" class="ink b" style="font-size:13px">體重</text>
+<text x="14.0" y="50.0" text-anchor="start" class="ink b" style="font-size:22px">75.4</text>
+<text x="72.0" y="50.0" text-anchor="start">kg</text>
+<text x="326.0" y="22.0" text-anchor="end" style="font-size:11px">+0.4 kg 較上次（變差）</text>
+<text x="326.0" y="50.0" text-anchor="end" style="font-size:11px">近 4 週 −0.51 ± 0.06 kg/週</text>
+<text x="14.0" y="68.0" text-anchor="start" class="muted" style="font-size:11px">波動 ±0.21 kg</text>
+<text x="326.0" y="68.0" text-anchor="end" class="ink b" style="font-size:11px">明確下降（改善）</text>
+<line class="grid" x1="44" x2="326" y1="174.0" y2="174.0"/>
+<text x="38.0" y="178.0" text-anchor="end" class="muted" style="font-size:11px">72.5</text>
+<line class="grid" x1="44" x2="326" y1="144.0" y2="144.0"/>
+<text x="38.0" y="148.0" text-anchor="end" class="muted" style="font-size:11px">75</text>
+<line class="grid" x1="44" x2="326" y1="114.0" y2="114.0"/>
+<text x="38.0" y="118.0" text-anchor="end" class="muted" style="font-size:11px">77.5</text>
+<line class="grid" x1="44" x2="326" y1="84.0" y2="84.0"/>
+<text x="38.0" y="88.0" text-anchor="end" class="muted" style="font-size:11px">80</text>
+<line class="axis" x1="53.5" x2="53.5" y1="174" y2="178"/>
+<text x="53.5" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">01-05</text>
+<line class="axis" x1="105.3" x2="105.3" y1="174" y2="178"/>
+<text x="105.3" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">01-12</text>
+<line class="axis" x1="157.1" x2="157.1" y1="174" y2="178"/>
+<text x="157.1" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">01-19</text>
+<line class="axis" x1="208.9" x2="208.9" y1="174" y2="178"/>
+<text x="208.9" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">01-26</text>
+<line class="axis" x1="260.6" x2="260.6" y1="174" y2="178"/>
+<text x="260.6" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">02-02</text>
+<line class="axis" x1="312.4" x2="312.4" y1="174" y2="178"/>
+<text x="312.4" y="190.0" text-anchor="middle" class="muted" style="font-size:10px">02-09</text>
+<polygon class="wash-s1" points="59.1,108.1 62.3,108.5 65.4,109.0 68.5,109.4 71.7,109.9 74.8,110.3 78.0,110.7 81.1,111.2 84.3,111.6 87.4,112.0 90.6,112.4 93.7,112.8 96.9,113.2 100.0,113.6 103.2,114.0 106.3,114.4 109.5,114.8 112.6,115.2 115.8,115.6 118.9,116.0 122.1,116.4 125.2,116.8 128.3,117.1 131.5,117.5 134.6,117.9 137.8,118.3 140.9,118.7 144.1,119.0 147.2,119.4 150.4,119.8 153.5,120.2 156.7,120.5 159.8,120.9 163.0,121.3 166.1,121.6 169.3,122.0 172.4,122.4 175.6,122.7 178.7,123.1 181.9,123.5 185.0,123.8 188.1,124.2 191.3,124.6 194.4,124.9 197.6,125.3 200.7,125.7 203.9,126.0 207.0,126.4 210.2,126.8 213.3,127.2 216.5,127.5 219.6,127.9 222.8,128.3 225.9,128.7 229.1,129.0 232.2,129.4 235.4,129.8 238.5,130.2 241.7,130.6 244.8,131.0 247.9,131.4 251.1,131.8 254.2,132.2 257.4,132.6 260.5,133.0 263.7,133.4 266.8,133.8 270.0,134.2 273.1,134.6 276.3,135.0 279.4,135.4 282.6,135.8 285.7,136.2 288.9,136.6 292.0,136.9 295.2,137.3 298.3,137.7 301.5,138.1 304.6,138.5 307.7,138.8 310.9,139.2 310.9,144.1 307.7,143.8 304.6,143.4 301.5,143.0 298.3,142.7 295.2,142.3 292.0,141.9 288.9,141.5 285.7,141.1 282.6,140.7 279.4,140.3 276.3,139.9 273.1,139.5 270.0,139.1 266.8,138.7 263.7,138.3 260.5,137.9 257.4,137.5 254.2,137.1 251.1,136.7 247.9,136.3 244.8,135.9 241.7,135.5 238.5,135.1 235.4,134.7 232.2,134.4 229.1,134.0 225.9,133.6 222.8,133.2 219.6,132.8 216.5,132.5 213.3,132.1 210.2,131.7 207.0,131.4 203.9,131.0 200.7,130.6 197.6,130.2 194.4,129.9 191.3,129.5 188.1,129.1 185.0,128.8 181.9,128.4 178.7,128.0 175.6,127.7 172.4,127.3 169.3,126.9 166.1,126.6 163.0,126.2 159.8,125.8 156.7,125.5 153.5,125.1 150.4,124.7 147.2,124.3 144.1,124.0 140.9,123.6 137.8,123.2 134.6,122.8 131.5,122.5 128.3,122.1 125.2,121.7 122.1,121.3 118.9,120.9 115.8,120.5 112.6,120.2 109.5,119.8 106.3,119.4 103.2,119.0 100.0,118.6 96.9,118.2 93.7,117.8 90.6,117.4 87.4,116.9 84.3,116.5 81.1,116.1 78.0,115.7 74.8,115.2 71.7,114.8 68.5,114.4 65.4,113.9 62.3,113.5 59.1,113.0"/>
+<polyline class="line" points="59.1,110.6 62.3,111.0 65.4,111.5 68.5,111.9 71.7,112.3 74.8,112.8 78.0,113.2 81.1,113.6 84.3,114.1 87.4,114.5 90.6,114.9 93.7,115.3 96.9,115.7 100.0,116.1 103.2,116.5 106.3,116.9 109.5,117.3 112.6,117.7 115.8,118.1 118.9,118.5 122.1,118.8 125.2,119.2 128.3,119.6 131.5,120.0 134.6,120.4 137.8,120.8 140.9,121.1 144.1,121.5 147.2,121.9 150.4,122.2 153.5,122.6 156.7,123.0 159.8,123.4 163.0,123.7 166.1,124.1 169.3,124.5 172.4,124.8 175.6,125.2 178.7,125.6 181.9,125.9 185.0,126.3 188.1,126.7 191.3,127.0 194.4,127.4 197.6,127.8 200.7,128.1 203.9,128.5 207.0,128.9 210.2,129.3 213.3,129.6 216.5,130.0 219.6,130.4 222.8,130.8 225.9,131.1 229.1,131.5 232.2,131.9 235.4,132.3 238.5,132.7 241.7,133.1 244.8,133.4 247.9,133.8 251.1,134.2 254.2,134.6 257.4,135.0 260.5,135.4 263.7,135.8 266.8,136.2 270.0,136.6 273.1,137.0 276.3,137.4 279.4,137.8 282.6,138.2 285.7,138.6 288.9,139.0 292.0,139.4 295.2,139.8 298.3,140.2 301.5,140.6 304.6,140.9 307.7,141.3 310.9,141.6"/>
+<g><title>2026-01-05 18:05：77.9 kg（趨勢 77.8）</title><circle cx="59.1" cy="109.2" r="11" fill="transparent"/><circle class="dot-raw" cx="59.1" cy="109.2" r="4"/></g>
+<g><title>2026-01-07 18:19：77.5 kg（趨勢 77.6）</title><circle cx="74.0" cy="114.0" r="11" fill="transparent"/><circle class="dot-raw" cx="74.0" cy="114.0" r="4"/></g>
+<g><title>2026-01-11 17:54：77.3 kg（趨勢 77.3）</title><circle cx="103.4" cy="116.4" r="11" fill="transparent"/><circle class="dot-raw" cx="103.4" cy="116.4" r="4"/></g>
+<g><title>2026-01-13 19:05：77.0 kg（趨勢 77.1）</title><circle cx="118.6" cy="120.0" r="11" fill="transparent"/><circle class="dot-raw" cx="118.6" cy="120.0" r="4"/></g>
+<g><title>2026-01-17 18:30：77.0 kg（趨勢 76.8）</title><circle cx="148.0" cy="120.0" r="11" fill="transparent"/><circle class="dot-raw" cx="148.0" cy="120.0" r="4"/></g>
+<g><title>2026-01-20 19:02：76.5 kg（趨勢 76.6）</title><circle cx="170.4" cy="126.0" r="11" fill="transparent"/><circle class="dot-raw" cx="170.4" cy="126.0" r="4"/></g>
+<g><title>2026-01-24 18:21：76.2 kg（趨勢 76.3）</title><circle cx="199.7" cy="129.6" r="11" fill="transparent"/><circle class="dot-raw" cx="199.7" cy="129.6" r="4"/></g>
+<g><title>2026-01-27 19:07：76.5 kg（趨勢 76.1）</title><circle cx="222.2" cy="126.0" r="11" fill="transparent"/><circle class="dot-raw" cx="222.2" cy="126.0" r="4"/></g>
+<g><title>2026-01-28 19:00：75.8 kg（趨勢 76.0）</title><circle cx="229.5" cy="134.4" r="11" fill="transparent"/><circle class="dot-raw" cx="229.5" cy="134.4" r="4"/></g>
+<g><title>2026-01-30 19:07：76.0 kg（趨勢 75.9）</title><circle cx="244.4" cy="132.0" r="11" fill="transparent"/><circle class="dot-raw" cx="244.4" cy="132.0" r="4"/></g>
+<g><title>2026-02-02 18:17：75.7 kg（趨勢 75.7）</title><circle cx="266.3" cy="135.6" r="11" fill="transparent"/><circle class="dot-raw" cx="266.3" cy="135.6" r="4"/></g>
+<g><title>2026-02-04 18:01：75.6 kg（趨勢 75.5）</title><circle cx="281.0" cy="136.8" r="11" fill="transparent"/><circle class="dot-raw" cx="281.0" cy="136.8" r="4"/></g>
+<g><title>2026-02-05 18:40：75.0 kg（趨勢 75.4）</title><circle cx="288.6" cy="144.0" r="11" fill="transparent"/><circle class="dot-raw" cx="288.6" cy="144.0" r="4"/></g>
+<g><title>2026-02-08 19:01：75.4 kg（趨勢 75.2）</title><circle cx="310.9" cy="139.2" r="11" fill="transparent"/><circle class="dot-raw" cx="310.9" cy="139.2" r="4"/></g>
+<text x="59.1" y="100.2" text-anchor="middle" style="font-size:10px">77.9</text>
+<text x="288.6" y="161.0" text-anchor="middle" style="font-size:10px">75.0</text>
+<circle class="dot-raw" cx="48" cy="207" r="4"/>
+<text x="56.0" y="211.0" text-anchor="start" class="muted" style="font-size:10px">每次量測</text>
+<line class="line" x1="108" x2="124" y1="207" y2="207"/>
+<text x="128.0" y="211.0" text-anchor="start" class="muted" style="font-size:10px">趨勢</text>
+<rect class="wash-s1" x="160" y="202" width="14" height="10" rx="2"/>
+<text x="178.0" y="211.0" text-anchor="start" class="muted" style="font-size:10px">趨勢 ± 波動</text>
+</svg>

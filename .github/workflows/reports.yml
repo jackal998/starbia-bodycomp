@@ -1,0 +1,55 @@
+# 由 raw/ 重建 CSV、產生報表並跑螢幕驗證；跑示範資料的自我測試。
+#   pull request：只檢查（自我測試失敗、驗證有 ❌、或產出跟 commit 的不一致都會失敗）
+#   push 到 main（例如在 GitHub 網頁上手動改了 raw/ 或腳本）：重新產生並 commit
+name: 報表
+
+on:
+  push:
+    branches: [main]
+    paths: ["body-comp/raw/**", "body-comp/ranges.csv", "scripts/**", "README.md", ".github/workflows/reports.yml"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: body-comp-data
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.ref }}
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - run: pip install -r scripts/requirements.txt
+      - name: 自我測試（合成資料：QR 圖 → 讀回 → 寫入 → 報表）
+        run: python scripts/demo.py --check
+      - name: 重建資料、產生報表、螢幕驗證
+        run: |
+          python scripts/starbia_qr.py --rebuild
+          python scripts/report.py
+      - name: 重新產生示範資料（demo/ 刪掉了就略過）
+        run: if [ -d demo ]; then python scripts/demo.py; fi
+      - name: 產出必須跟 commit 的一致
+        if: github.event_name == 'pull_request'
+        run: |
+          git status --short
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+      - name: commit 重新產生的檔案
+        if: github.event_name != 'pull_request'
+        run: |
+          git add -A body-comp demo examples README.md
+          if git diff --cached --quiet; then echo "沒有變更"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "重新產生報表"
+          git push
