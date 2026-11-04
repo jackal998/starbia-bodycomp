@@ -160,7 +160,8 @@ def preview_text(ctx):
     if not when:
         L += ["", "❌ 時間無法使用，請留言 `/time YYYY-MM-DD HH:MM`。"]
     else:
-        L += ["", f"時間正確 → 回覆 `/confirm`　｜　要改 → 回覆 `/time 2026-01-15 18:30`（{q.TZ_NAME}）"]
+        L += ["", f"**時間正確** → 在下面留言 `/confirm`　｜　**時間不對** → 留言 `/confirm 2026-01-15 18:30`"
+                  f"（改成正確的時間，{q.TZ_NAME}）"]
     return "\n".join(L)
 
 # ---------------- 主流程 ----------------

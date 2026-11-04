@@ -878,7 +878,7 @@ def update_readme(ms):
     if os.environ.get("BODYCOMP_DIR") or not os.path.exists(README): return
     s = open(README, encoding="utf-8").read()
     if not ms:
-        block = "<!-- latest:start -->\n（還沒有量測：用「新增量測」issue 上傳第一張 QR 之後，這裡會自動顯示最新一次的摘要與趨勢圖）\n<!-- latest:end -->"
+        block = "<!-- latest:start -->\n（還沒有量測。先完成下面的「第一次設定」，量完上傳第一張 QR code 後，這裡會自動顯示最新一次的結果與趨勢圖）\n<!-- latest:end -->"
         new = re.sub(r"<!-- latest:start -->.*?<!-- latest:end -->", lambda _: block, s, flags=re.S)
         if new != s: write(README, new)
         return
