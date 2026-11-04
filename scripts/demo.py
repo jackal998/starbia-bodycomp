@@ -102,8 +102,12 @@ def qr_text(raw):
     return base64.b64encode(gzip.compress(",".join(raw).encode("utf-8"), mtime=0)).decode()
 
 def write_qr_png(raw, path):
+    """內容沒變就不重寫：PNG 壓縮結果依 Pillow／zlib 版本而異，每台機器的位元組不一樣。"""
     import zxingcpp
     from PIL import Image
+    import starbia_qr as q
+    if os.path.exists(path) and q.rows_from_image(Image.open(path)) == [raw]:
+        return
     code = zxingcpp.create_barcode(qr_text(raw), zxingcpp.BarcodeFormat.QRCode)
     img = zxingcpp.write_barcode_to_image(code, scale=8)
     os.makedirs(os.path.dirname(path), exist_ok=True)
