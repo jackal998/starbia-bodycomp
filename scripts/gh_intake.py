@@ -64,6 +64,22 @@ def norm_time(s):
         return None
     return dt.strftime("%Y-%m-%d %H:%M")
 
+COMMANDS = {"/confirm": "confirm", "/time": "preview", "/preview": "preview"}
+HELP = ("可用的指令：`/confirm`（用目前顯示的時間寫入）、`/confirm 2026-01-15 18:30`（指定時間並寫入）、"
+        "`/time 2026-01-15 18:30`（改時間，先不寫入）、`/preview`（重新讀取照片）。")
+
+def parse_command(body):
+    """留言 → (指令, 看不懂的指令)。寬鬆比對：全形「／」、大小寫、黏在指令後面的標點或時間
+    （/Confirm。、/confirm2026-01-15 18:30）都接受。不是 / 開頭 → (None, None)；
+    / 開頭但不認得（例如打錯成 /comfirm）→ (None, 第一個字)，好回覆提示而不是默默略過。"""
+    s = unicodedata.normalize("NFKC", body or "").lstrip("\u200b\ufeff \t\r\n")
+    if not s.startswith("/"): return None, None
+    first = s.split()[0].lower()
+    for k, v in COMMANDS.items():
+        if first == k or (first.startswith(k) and not first[len(k)].isalpha()):
+            return v, None
+    return None, first
+
 def form_field(body, label):
     m = re.search(rf"^###\s*{re.escape(label)}\s*$(.*?)(?=^###\s|\Z)", body or "", re.M | re.S)
     v = m.group(1).strip() if m else ""
@@ -108,8 +124,8 @@ def last_time_command(comments):
     for c in comments:
         if c.get("author_association") not in TRUSTED: continue
         for line in (c.get("body") or "").splitlines():
-            line = line.strip()
-            if line.startswith("/time") or line.startswith("/confirm"):
+            cmd, _ = parse_command(line)
+            if cmd:
                 t = norm_time(line) or t
     return t
 
@@ -265,8 +281,12 @@ def main():
         c = event["comment"]
         if c.get("author_association") not in TRUSTED or MARK in (c.get("body") or ""):
             print("不是受信任者的指令，略過"); return
-        first = (c.get("body") or "").strip().split()[0] if (c.get("body") or "").strip() else ""
-        cmd = {"/confirm": "confirm", "/time": "preview", "/preview": "preview"}.get(first)
+        cmd, unknown = parse_command(c.get("body"))
+        if unknown and issue.get("state") != "closed":
+            api("POST", f"/repos/{repo}/issues/{number}/comments",
+                {"body": f"⚠ 看不懂 `{unknown}`，這則留言沒有執行。\n\n{HELP}\n\n"
+                         "打錯的話，直接再留一則新的，或編輯原本那則留言改正都可以。"})
+            print(f"看不懂的指令 {unknown}，已回覆說明"); return
         if not cmd:
             print("不是指令，略過"); return
     if issue.get("state") == "closed":

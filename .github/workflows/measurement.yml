@@ -6,7 +6,7 @@ on:
   issues:
     types: [opened, edited, reopened]
   issue_comment:
-    types: [created]
+    types: [created, edited]          # 編輯留言（例如把打錯的指令改正）也會執行
 
 permissions:
   contents: write
@@ -23,7 +23,7 @@ jobs:
     if: >-
       !github.event.issue.pull_request &&
       contains(github.event.issue.body, '### QR code 照片') &&
-      (github.event_name == 'issues' || startsWith(github.event.comment.body, '/'))
+      (github.event_name == 'issues' || contains(github.event.comment.body, '/') || contains(github.event.comment.body, '／'))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
